@@ -1,0 +1,95 @@
+@media screen and (min-width: 375px) {
+    /* Main page */
+        h1 {
+            text-align: center;
+        }
+        
+        img {
+            width: 300px;
+            height: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #dogtrainingimage {
+            width: 350px;
+        }
+        
+        .linklist {
+            list-style-type: none;
+            text-align: center;
+            font-size: 25px;
+            padding-left: 0;
+        }
+        .link {
+            background-color: aliceblue;
+        }
+        .link:nth-child(odd) {
+            background-color: beige;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .welcome {
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        footer {
+            padding-top: 20px;
+            text-align: center;
+            background-color: aqua;
+        }
+        
+        /* Dog Grooming Main Page */
+    
+        #grooming {
+        text-align: center;
+        font-weight: normal;
+        }
+        
+        /* Dog Boarding Page */
+        #boarding {
+            font-size: 20px;
+        }
+        th {
+            background-color: white;
+        }
+        
+        table, th, td {
+            border: 1px solid transparent;
+        }
+        
+        th, td {
+            padding: 20px;
+        }
+        
+        table {
+            border-spacing: 6px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: azure;
+        }
+        
+        tr:nth-child(odd) {
+            background-color:beige;
+        }
+        
+        /* Center Tables on Pages: Doggy Daycare & Doggy Spa */
+        
+        .centertable {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Making table (Other Services) wider on page: Doggy Spa */
+        
+        #width {
+            width: 80%;
+        }
+    }
